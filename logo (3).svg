@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C07B" />
+      <stop offset="50%" stop-color="#C59B3C" />
+      <stop offset="100%" stop-color="#8B6914" />
+    </linearGradient>
+    
+    <linearGradient id="navyGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b1320" />
+      <stop offset="50%" stop-color="#1a2a42" />
+      <stop offset="100%" stop-color="#2c4263" />
+    </linearGradient>
+    
+    <linearGradient id="silverGradient" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#9ca3af" />
+      <stop offset="100%" stop-color="#4b5563" />
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="#0A1118" />
+
+  <path d="M 150 350 C 70 280, 100 150, 200 120 C 220 115, 250 115, 270 120 C 250 135, 230 145, 200 155 C 130 180, 120 260, 170 310 Z" fill="url(#silverGradient)" />
+
+  <path d="M 170 370 C 260 410, 360 360, 400 270 C 410 240, 415 210, 415 180 L 440 180 L 390 100 L 340 180 L 370 180 C 360 270, 290 340, 200 340 Z" fill="url(#goldGradient)" />
+
+  <polygon points="250,190 310,220 250,250 190,220" fill="url(#silverGradient)" />
+  <polygon points="190,220 250,250 250,320 190,290" fill="url(#navyGradient)" />
+  <polygon points="250,250 310,220 310,290 250,320" fill="#111d2e" />
+
+  <polygon points="220,205 280,235 270,240 210,210" fill="#0A1118" opacity="0.3" />
+  <polygon points="250,250 250,320 245,317 245,252" fill="#0A1118" opacity="0.4" />
+
+  <rect x="90" y="240" width="80" height="6" rx="3" fill="url(#goldGradient)" />
+  <rect x="110" y="265" width="60" height="6" rx="3" fill="url(#silverGradient)" />
+  <rect x="70" y="290" width="100" height="6" rx="3" fill="url(#goldGradient)" />
+
+</svg>
